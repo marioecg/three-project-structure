@@ -1,0 +1,30 @@
+{
+  "name": "three-project-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marioecg/three-project-structure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marioecg/three-project-structure/issues"
+  },
+  "homepage": "https://github.com/marioecg/three-project-structure#readme",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "gsap": "^3.10.4",
+    "lodash.debounce": "^4.0.8",
+    "three": "^0.139.2",
+    "tiny-emitter": "^2.1.0",
+    "tweakpane": "^3.0.8"
+  }
+}

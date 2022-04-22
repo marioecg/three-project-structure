@@ -1,0 +1,13 @@
+logs
+*.log
+npm-debug.log*
+node_modules/
+.npm
+dist
+build
+.cache/
+node_modules
+**/.DS_Store
+_site
+_dist
+.parcel-cache
