@@ -1,24 +1,24 @@
 {
   "name": "three-project-structure",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "npm run clean && parcel build index.html",
+    "clean": "rm -rf dist .parcel-cache"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marioecg/three-project-structure.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "marioecg",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/marioecg/three-project-structure/issues"
   },
   "homepage": "https://github.com/marioecg/three-project-structure#readme",
   "devDependencies": {
-    "parcel": "^2.5.0"
+    "parcel": "^2.5.0",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "gsap": "^3.10.4",
