@@ -26,5 +26,10 @@
     "three": "^0.139.2",
     "tiny-emitter": "^2.1.0",
     "tweakpane": "^3.0.8"
+  },
+  "alias": {
+    "app": "./scripts",
+    "experience": "./scripts/experience",
+    "assets": "./assets"
   }
 }

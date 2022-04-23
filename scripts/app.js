@@ -1,1 +1,4 @@
-console.log('it runs');
+import Experience from 'experience'
+
+const elem = document.querySelector('#webgl')
+const experience = new Experience(elem)
